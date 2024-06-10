@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitinha</title>  
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&
+    family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" 
+    rel="stylesheet">
+
+    <script src="main.js"> </script>
+
+</head>
+
+<body>
+
+    <header class="top">
+
+        <picture>
+            <img src="assets/tortadelimao.png" 
+            alt="torta de limão">
+        </picture>
+
+    <div class="info">
+        <h1>Torta de Limão </h1>
+        <p>Torta cozida no forno e recheada com um creme a base de limão. </p>
+        
+        <div class="botoes">
+            <span> Porções </span>
+
+            <button id="botao-subtrair" onclick="decreaseContador ()"> 
+                <img src="assets/subtract.png" alt="botão de menos">
+            </button>   
+       
+            <p id="contador"> 01 </p>
+
+        <button id="botao-adcionar" onclick="increaseContador ()">
+            <img src="assets/add.png" alt="botão de mais">
+         </button>
+
+        </div>
+    </div>
+
+    </header>
+
+
+    <footer class="bottom">
+    <div id="coluna-um"> 
+     
+        <div id="title">
+            <img src="assets/bag.png" alt="ícone de cesta de mercado">
+             <h1> Ingredientes </h1>
+        </div>
+
+        <ul>
+            <li>1 pacote de biscoito (maria ou maisena) </li>
+            <li>2 colheres de sopa de margarina </li>
+            <li>1 leite condensado </li>
+            <li>1 creme de leite </li>
+            <li>suco de 3 limões </li>
+        </ul>
+
+    </div>
+
+    <div id="coluna-dois">
+
+        <div id="title">
+            <img src="assets/pan.png" alt="ícone de uma panela">
+
+            <h1> Modo de preparo </h1>
+        </div>
+    
+        <ol>
+            <li>Triture as bolachas até que fique só a "farofa". </li>
+            <li>Em seguida adicione aos poucos a margarina e misture tudo muito bem. </li>
+            <li>Leve pra assar a 180° por 15 minutos. </li>
+            <li>Enquanto assa, coloque o leite condensado e o creme de leite no liquidificador e 
+            bata por 1 minutos. </li>
+            <li> Logo, adicione o suco de limão e bata por mais 1 minuto.</li>
+            <li>Quando a base de biscoito ficar pronta, coloque o mousse por cima e leve pro 
+            congelador por 20/30 minutos. </li>
+            <li> É opcional, mas vc pode colocar raspas de limão por cima dps de gelado pra ficar bonito</li>
+        </ol>
+
+    </div>
+
+    </footer>
+
+</body>
+
+</html>
